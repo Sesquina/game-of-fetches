@@ -55,7 +55,7 @@ class App extends React.Component {
     this.setState({
       formComplete: true
     })
-    alert(`Your form has been submitted! We will reach out to you shortly to schedule a consultation for ${this.state.name}!`)
+    alert(`Your form has been submitted! We will contact you shortly to schedule a consultation for ${this.state.name}!`)
   }
 
   render() {
@@ -77,7 +77,7 @@ class App extends React.Component {
               <label>Name</label>
               <input 
                 type='name'
-                placeholder='Ace'
+                placeholder='Yako'
                 value={this.state.name}
                 onChange={this.onNameChange}
               />
@@ -90,7 +90,7 @@ class App extends React.Component {
               <label>Color</label>
               <input 
                 type='text'
-                placeholder='Black with white spots'
+                placeholder='Brown'
                 value={this.state.color}
                 onChange={this.onColorChange}
 
@@ -98,7 +98,7 @@ class App extends React.Component {
               <label>Breed</label>
               <input 
                 type='text'
-                placeholder='Golden Retriever'
+                placeholder='Labrador'
                 value={this.state.breed}
                 onChange={this.onBreedChange}
 
@@ -106,14 +106,14 @@ class App extends React.Component {
               <label>Weight</label>
               <input 
                 type='name'
-                placeholder='Rough estimate in lbs'
+                placeholder='in lbs'
                 value={this.state.weight}
                 onChange={this.onWeightChange}
               />
               <label>Gender</label>
               <input 
                 type='text'
-                placeholder='Male'
+                placeholder='Female'
                 value={this.state.gender}
                 onChange={this.onGenderChange}
               />
