@@ -1,0 +1,52 @@
+* {
+  background-color: #B6D5E1;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.left-div {
+  /* background: image(); */
+  text-align: center;
+  padding: 2em;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-left: 2em;
+  /* text-align: center; */
+  /* align-content: center; */
+}
+
+.pup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  padding: 20px;
+}
+
+.pup-form > input {
+  width: 250px;
+  border: 0;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  /* box-shadow: 12px, 12px, 2px, 1px black; */
+}
+
+.pup-form > button {
+  width: 250px;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.pup-form > button:hover {
+  background-color: #fafafa;
+}
